@@ -35,20 +35,12 @@
                popup="true">
             <add-to-group group-id="ToolsMenu" anchor="last" />
 
-            <action id="WebSphereProfileManager.ViewProfiles"
+            <action id="WasProfileManager.ManageProfiles"
                     class="com.github.loganblack88.wpm.ProfileManagerAction"
                     text="Manage Profiles..."
-                    description="Launch profile management modal?">
-                <add-to-group group-id="WasProfileManager.ToolsGroup" anchor="first" />
+                    description="Launch profile management dialog.">
+                <!--<add-to-group group-id="WasProfileManager.ToolsGroup" anchor="first" />-->
             </action>
         </group>
-
-        <!--
-        <group id="MyPlugin.SampleMenu" text="Greeting" description="Greeting menu">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="Myplugin.Textboxes" class="com.github.loganblack88.wpm.HelloAction" text="Hello" description="Says hello"/>
-        </group>
-        -->
-
     </actions>
 </idea-plugin>
