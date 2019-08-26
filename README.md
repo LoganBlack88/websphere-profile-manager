@@ -22,6 +22,12 @@ Plugin Lifecycle:
 
 https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_components.html#plugin-components-lifecycle
 
+
+Storage: 
+
+https://corochann.com/intellij-plugin-development-introduction-persiststatecomponent-903.html
+
+
 Tool Windows (ie, panes): 
 
 https://www.jetbrains.org/intellij/sdk/docs/user_interface_components/tool_windows.html

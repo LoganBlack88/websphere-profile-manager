@@ -20,12 +20,13 @@
     <depends>com.intellij.modules.lang</depends>
     -->
 
-    <!-- TODO: If we need any application-level configuration, might need to set it in here. -->
+    <!-- TODO: If we need any application-level configuration, might need to set it in here.
     <application-components></application-components>
-
+    -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <projectService serviceInterface="com.github.loganblack88.wpm.WasProfileManagerConfig"
+                        serviceImplementation="com.github.loganblack88.wpm.WasProfileManagerConfig"/>
     </extensions>
 
     <actions>
